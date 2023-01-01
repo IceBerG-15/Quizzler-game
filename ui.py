@@ -27,7 +27,7 @@ class UI():
         #calling next_question function
         self.get_next_question()
 
-        true_img=PhotoImage(file='C:\\Python310\\codes\\projects\\quizzler-app-start\\images\\true.png')
+        true_img=PhotoImage(file='.\\images\\true.png')
         self.true_button=Button(
             image=true_img,
             highlightthickness=0,
@@ -36,7 +36,7 @@ class UI():
         self.true_button.grid(column=0,row=2)
 
 
-        false_img=PhotoImage(file='C:\\Python310\\codes\\projects\\quizzler-app-start\\images\\false.png')
+        false_img=PhotoImage(file='.\\images\\false.png')
         self.false_button=Button(
             image=false_img,
             highlightthickness=0,
